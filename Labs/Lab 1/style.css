@@ -59,8 +59,8 @@ nav a:hover, #current {
 .picorrect {
    width:400px;
 height: 250px;
-Float: right;
-border-radius: 100px;
+float: left;
+border-radius: 200px;
 }
 .h3 {
     font-family: "Times New Roman", Times, serif;
