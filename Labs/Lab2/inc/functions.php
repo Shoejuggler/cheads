@@ -21,7 +21,7 @@
         
         function displayPoints($randomNumber1, $randomNumber2, $randomNumber3, $randomNumber4){
             echo"<div id = 'output'>";
-            if ($randomNumber1 == $randomNumber2 && $randomNumber2 == $randomNumber3 && $randomNumber2 == $randomNumber4) {
+            if ($randomNumber1 == $randomNumber2 && $randomNumber2 == $randomNumber3 && $randomNumber3 == $randomNumber4) {
                 switch ($randomNumber1) {
                     case 0: $totalPoints = 1000;
                     echo "<h1> JACKPOT!!! <h1>";
@@ -49,11 +49,9 @@
         displaySymbol($randomNumber2);
         $randomNumber3 = rand(0,3);
         displaySymbol($randomNumber3);
-        $randomNumber3 = rand(0,3);
-        displaySymbol($randomNumber4);
         
         echo "<br>The random values are: <br>";
-        echo $randomNumber1 . " , "  . $randomNumber2 .  " , "  . $randomNumber3 .  " & "  . $randomNumber4;
+        echo $randomNumber1 . " , "  . $randomNumber2 .  " & "  . $randomNumber3;
         
         displayPoints($randomNumber1, $randomNumber2, $randomNumber3, $randomNumber4);
         function play (){
