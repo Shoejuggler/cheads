@@ -90,7 +90,7 @@ function identifyWinner($p1, $p2) {
 <html>
     <head>
         <title> Lab 3: Ace Poker </title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="style.css"> 
         
     </head>
     <body>
