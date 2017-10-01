@@ -24,20 +24,40 @@ $backgroundImage = "img/sea.jpg";
 
        <?php
        
-       if (isset($_GET["keyword"]) ) { // is there a parameter called "keyword" as part of the URL
-        // echo  "keyword typed: " . $_GET["keyword"];
+       if (isset($_GET["keyword"]) ) { 
+         
+         
+         include 'api/pixabayAPI.php';
+         $imageURLs = getImageURLs($_GET['keyword']);
+        
        }
-       include 'api/pixeabayAPI.php';
-       $imageUrls = getImageUrls($_GET['keyword']);
-       print_r($imageUrLs);
+         
+         
+         
+         ?>
+         <form method="GET">
+            
+            <input type="text" name="keyword" placeholder="Type keyword"/>
+            <input type="submit" />
+            
+        </form> 
+        <?php
+        
        
-       for ($i = 0; $i < 5; $i++) {
-           $imageName = array_pop($imageUrls);
-           echo "Imagename"
-            // code...
-       }
+        for ($i=0; $i<5; $i++){
+             do{
+                 $randomIndex = rand(0,count($imageURLs));
+             } while (!isset($imageURLs[$randomIndex]));
+             echo "<img src='" . $imageURLs[$randomIndex] . "' width='200' >";
+             unset($imageURLs[$randomIndex]);
+         }
+        
+         
        
-        if (!isset($imageURLs)) {  //if form hasn't been submitted
+       
+       
+       
+        if (!isset($imageURLs)) {  
             
           echo "<h2> Type a keyword to display a slideshow 
                 with random images from Pixabay.com </h2>" ;   
@@ -48,12 +68,7 @@ $backgroundImage = "img/sea.jpg";
 
 
 
-        <form>
-            
-            <input type="text" name="keyword" placeholder="Type keyword"/>
-            <input type="submit" />
-            
-        </form>        
+               
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
