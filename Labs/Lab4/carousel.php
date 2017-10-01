@@ -1,18 +1,13 @@
-
-
-
-
-
 <?php
-    $backgroundImg = "img/sea.jpg"; 
+
     
 
     
     if (isset ($_GET['keyword'])) { 
         
-        include 'api/pixabayAPI.php'; 
-        $imageURLs = getImageURLs($_GET['keyword']); 
-        $backgroundImg = $imageURLs[array_rand($imageURLs)]; 
+       echo "keyword typed: " . $_GET['keyword'] . "<br />";
+       echo "layout selected:" . $_GET['layout'] . "<br />";
+       echo "category selected: " . $_GET['category'] . "<br />";
         
         
     
@@ -21,6 +16,7 @@
         if (!empty($_GET['category']) ) {  
           $keyword = $_GET['category']; 
         }
+        include 'api/pixabayAPI.php';
         
         if (isset($_GET['layout'])) { 
           $imageURLs = getImageURLs($keyword, $_GET['layout']);
@@ -28,7 +24,7 @@
            $imageURLs = getImageURLs($keyword);
         }
         
-    } // If
+    } 
 
 
 ?>
@@ -36,30 +32,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Lab 4 Pixabay Slideshow </title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <title> Slideshow </title>
+        
         
        
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         
         
-        <style>
-            @import url('css/styles.css');
-            body {
-                background-image: url('<?=$backgroundImg?>'); /* set background img to whatever value of $backgroundImg is */
-                background-size: cover;
-            }
-            
-            form{
-                color:black;
-                background-color: gray;
-                
-            }
-        </style>
+     
     </head>
     
     <body>
-        <br /><br />
+        
         <form>
             
             <input type="text" name="keyword" placeholder="Keyword" required>
@@ -81,44 +65,50 @@
         </form>
         <?php
 
-            if(!isset($imageURLs)) { 
+            if(!isset($_GET["keyword"])) { 
                 
                 echo "<h2>Type a keyword to display a slideshow <br /> with random images from Pixabay.com</h2>";
             } 
-            else { 
-                
+            else { if (empty($_GET['keyword']) && empty ($_GET['category'])) {
+ 
+ 
+            echo "<h2 style='color:red'> Please enter a keyword!</h2>"; 
+            return;
+            exit;
+}
 
+        shuffle($imageURLs);
         ?>
         
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             
             <ol class="carousel-indicators">
-                <?php
-                    for ($i = 0; $i < 7; $i++) {
-                        echo "<li data-target='#carousel-example-generic' data-slide-to='$i'";
-                        echo ($i == 0)?" class='active'": "";
-                        echo "></li>";
-                    }
-                ?>
+                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
             </ol>
             
             
             <div class="carousel-inner" role="listbox">
-                <?php
-                    for ($i = 0; $i < 5; $i++) {
-                        do {
-                            $randomIndex = rand(0, count($imageURLs));
-                        }
-                        while (!isset($imageURLs[$randomIndex]));
-                        
-                        echo '<div class="item ';
-                        echo ($i == 0)?"active": "";
-                        echo '">';
-                        echo '<img src="' . $imageURLs[$randomIndex] . '">';
-                        echo '</div>';
-                        unset($imageURLs[$randomIndex]);
-                    } // end of for loop
-                ?>
+                <div class="item active">
+                  <img src="<?=$imageURLs[0]?>" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="<?=$imageURLs[1]?>" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="<?=$imageURLs[2]?>" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div> 
             </div>
             
             

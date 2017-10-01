@@ -37,36 +37,14 @@ $backgroundImage = "img/sea.jpg";
          ?>
          <form method="GET">
             
-            <input type="text" name="keyword" placeholder="Type keyword"/>
-            <input type="submit" />
+            <input type="text" name="keyword" placeholder="keyword"/>
+            <input type="radio"  name="layout" value="horizontal"> Horizontal
+            <input type="radio"  name="layout" value="vertical"> Vertical
+            
+            <input type="submit"/>
             
         </form> 
-        <?php
-        
        
-        for ($i=0; $i<5; $i++){
-             do{
-                 $randomIndex = rand(0,count($imageURLs));
-             } while (!isset($imageURLs[$randomIndex]));
-             echo "<img src='" . $imageURLs[$randomIndex] . "' width='200' >";
-             unset($imageURLs[$randomIndex]);
-         }
-        
-         
-       
-       
-       
-       
-        if (!isset($imageURLs)) {  
-            
-          echo "<h2> Type a keyword to display a slideshow 
-                with random images from Pixabay.com </h2>" ;   
-            
-        } 
-        
-        ?>
-
-
 
                
 
