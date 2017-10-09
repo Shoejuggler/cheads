@@ -13,8 +13,8 @@
              
          </style>
     </head>
-    <body>
-        <div id= "shell">
+    <body id= "shell">
+        
     <h1>Enter Your Information <br> To Create a Sticky Note Reminder</h1>
  <form>
             
@@ -60,7 +60,7 @@
 
 
 ?>
-</div>
+
 </div>
     </body>
 </html>
