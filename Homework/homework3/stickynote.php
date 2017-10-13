@@ -18,13 +18,13 @@
     <h1>Enter Your Information <br> To Create a Sticky Note Reminder</h1>
  <form>
             
-            <input type="text" name="keyword" placeholder="Name of Assignment" required>
+            <input type="text" name="keyword" placeholder="Name of Assignment" required><br/><br/>
             
             <input  type="radio" name="priority" value="Low Priority" required> Low Priority
             
-            <input  type="radio" name="priority" value="High Priority" required>High Priority <br/>
+            <input  type="radio" name="priority" value="High Priority" required>High Priority <br/><br/>
             
-              Date & Time: <input type="datetime-local" name="date" required/> 
+              Date & Time: <br/><input type="datetime-local" name="date" required/> <br/><br/>
             
             <select  required name="type" required>
                 <option value="">Select Category</option>

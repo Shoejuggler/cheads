@@ -9,10 +9,12 @@
      background-image: url("http://www.resumeforit.com/wp-content/uploads/2017/04/notebook-tablet-paper-clipart-background-clipartfest-2.jpeg");
      font-family: 'Special Elite', cursive;
      font-size: 3em;
-     height: 400px;
+     height: 100%;
      padding: 125px;
      padding-right: 130px;
      color: red;
+      overflow: scroll;
+     
 }
 
 .glyp
