@@ -26,7 +26,7 @@ function getRandomQuote() {
     $quoteId = $records[$randomIndex]['quoteId']; //makes sure there is one quote
     
     //rand(0,count($records)); //$records just gets everything in an undefined manner
- $sql = "SELECT firstName, lastName, authorId, quote 
+ $sql = "SELECT firstName, lastName, authorId, quote, picture 
             FROM q_quote
             NATURAL JOIN q_author
             WHERE quoteId = $quoteId";
@@ -37,7 +37,7 @@ function getRandomQuote() {
      //fetch for single record
     
     echo $records ['quote'] . "<br/>";
-    echo"<a target='authorInfo' href='getAuthorInfo.php?authorId=".$records['authorId']."'>-" . $records['firstName'] ." " . ['lastName'];;
+    echo"<a target='authorInfo' href='getAuthorInfo.php?authorId=".$records['authorId']."'>-" . $records['firstName'] ." " . $records['lastName'];
     
 }
 
@@ -49,15 +49,16 @@ function getRandomQuote() {
 <html>
     <head>
         <title> Lab 5: Random Famous Quote Generator </title>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
     </head>
     <body>
-
+<div id="nav">
 
     <?php
     getRandomQuote()
     ?>        
 <br/>
 <iframe name="authorInfo" width="500" height ="300"></iframe>
-
+</div>
     </body>
 </html>

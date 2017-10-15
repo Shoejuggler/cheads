@@ -1,23 +1,43 @@
 <?php
 
-function zodiacList($startYear, $endYear){
-    $yearSum = 0;
-    $zodiac = array("rat","ox","tiger","rabbit","dragon","snake","horse","goat","monkey","rooster","dog","pig");
-    $zodiacSign=0;
-for ($i = $startYear; $i <= $endYear; $i=$i+4) {
-     echo "<li>  Year $i "; 
+$zodiac = array("rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "monkey", "rooster", "goat", "pig" );
+$task=$_GET['task'];
+
+
+function zodiacList($startYear=1900, $endYear=1950, $jump=1){
+ global $zodiac;
+ 
+ if (isset($_GET['startYear'])) {
+     $startYear = $_GET['startYear'];
+     $endYear = $_GET['endYear'];
+ }
+ $zodiacIndex =0;
+ for ($i=$startYear; $i < $endYear; $i +=$jump){
+     
+ } 
+ echo'<h2> Chinese Zodiac </h2>';
+        $yearSum=0;
+
+for ($i = $startYear; $i <= $endYear; $i++) {
+     echo "<li>" .  "Year $i" ; 
     
         if ($i == 1776) {
-            echo " USA INDEPENDENCE!";
+           echo " USA INDEPENDENCE!" ;
         }    
+        if ($i%100 == 0){
+            echo " New Century!";
+        } else {
+            
+        }
+        echo  "</li> ";
+        $yearSum= $yearSum + $i;
         
-        echo "</li> ";
-        
-        $yearSum = $yearSum + $i;
         
     }
     
-    return  $yearSum;
+
+
+}
 ?>
 
 
@@ -35,11 +55,11 @@ for ($i = $startYear; $i <= $endYear; $i=$i+4) {
         
         <?php
         
-        $sum = yearList(1500, 1550);
+        zodiacList(1500,2000);
         
         ?>
-        
-        <h2> Year Sum: <?=$sum?> </h2>
+        <h3> Som of Years: <?=$yearSum ?></h3>
+       
         
     </ul>
 

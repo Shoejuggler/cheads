@@ -9,7 +9,7 @@ $stmt = $conn -> prepare ($sql);
 $stmt -> execute();
 $record = $stmt -> fetch();
 
-echo $record['firstName'] . "  " . $record['biography'];
+echo $record['firstName'] . " " . $record['lastName'] . " <br/> " . $record['biography'] . "<br/>" . $record['picture'];
 
 ?>
 
