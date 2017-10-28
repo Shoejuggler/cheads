@@ -105,9 +105,10 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
     </head>
     <body>
-        <h1>Quote Finder</h1>
-        <form method="get">
-                <strong>Quote Content:</strong>
+        <fieldset>
+        <legend>Quote Finder</legend>
+        <form method="get" class="nav">
+            <label for="content">Quote Content</label>
                 <input type="text" name="content" value="<?=$_GET['content']?>">
                 <strong>Author's Gender:</strong>
                 <input type="radio" name="gender" id="female" value="F"
@@ -137,14 +138,23 @@
                     <?php=displayCategoryOptions()?>
                 </select>
                 
-                Order by: 
-                 <input type="radio" name="orderBy" id="orderByAuthor" value="orderByAuthor">
+                <strong>Order by: </strong>
+                 <input type="radio" name="orderBy" id="orderByAuthor" value="orderByAuthor"
+                   <?php
+                if ($_GET['orderBy'] == 'orderByAuthor'){
+                    echo "checked";
+                }
+                ?>>
                 <label for="orderByAuthor">Author</label>
-                 <input type="radio" name="orderBy" id="orderByQuote" value="orderByQuote">
+                 <input type="radio" name="orderBy" id="orderByQuote" value="orderByQuote"<?php
+                if ($_GET['orderBy'] == 'orderByQuote'){
+                    echo "checked";
+                }
+                ?>>
                 <label for="orderByQuote">Quote</label>                
                 <input type="submit" value="Filter" name="submit">
         </form>
-
+</fieldset>
         <hr />
 
         <div class="quotes">
