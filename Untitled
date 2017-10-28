@@ -3,3 +3,10 @@
 $myArray = array();
 
 for ($i=0; $i< 10; $i++) {}
+
+SELECT  firstName, lastName, quote FROM `q_author` Natural JOIN q_quote Natural JOIN q_category NATURAL JOIN q_quote WHERE gender="M" AND country = "USA" AND quote LIKE "life"
+SELECT DISTINCT (country) FROM 'q_author
+
+
+
+$dbConn = getDatabaseConnection('midterm');
