@@ -1,10 +1,10 @@
 <?php
 
-  include '../../dbConnection.php';
+   include '../../dbConnection.php';
    $conn = getDatabaseConnection();
    
    function displayCountryOptions() {
-       /*global $conn;
+       global $conn;
        $sql = "SELECT DISTINCT(country) 
                 FROM `q_author` 
                 ORDER by country";
@@ -20,13 +20,13 @@
                 echo "selected";
             }
             echo ">" . $record['country'] . "</option>";
-        }*/
+        }
         
    }
    
    
     function displayCategoryOptions() {
-      /* global $conn;
+       global $conn;
        $sql = "SELECT * 
                 FROM `q_category` 
                 ORDER BY category";
@@ -38,12 +38,12 @@
         
         foreach ($records as $record) {
             echo "<option>" . $record['category'] . "</option>";
-        }*/
+        }
         
    }
    
    function displayQuotes(){
-      /* global $conn;
+       global $conn;
        $sql = "SELECT firstName, lastName, quote
                 FROM q_author
                 NATURAL JOIN q_quote
@@ -89,7 +89,7 @@
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         foreach ($records as $record) {
             echo "<em>" . $record['quote'] . "</em> " . $record['firstName'] . " " . $record['lastName'] . "<br />";
-        }  */              
+        }                
                 
        
        
