@@ -102,12 +102,12 @@
 <html>
     <head>
         <title>Lab 6: Quote Finder</title>
-        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
-    <body>
+    <body class="nav">
         <fieldset>
         <legend>Quote Finder</legend>
-        <form method="get" class="nav">
+        <form method="get">
             <label for="content">Quote Content</label>
                 <input type="text" name="content" value="<?=$_GET['content']?>">
                 <strong>Author's Gender:</strong>
