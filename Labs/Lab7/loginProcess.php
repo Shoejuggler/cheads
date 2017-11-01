@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-   include 'dbConnection.php';
+   include '../../dbConnection.php';
    $conn = getDatabaseConnection();
 $username = $_POST['username'];
 $password = sha1($_POST['password']);
@@ -21,7 +21,7 @@ $namedParameters  = array();
 $namedParameters[':username']  = $username;
 $namedParameters[':password']  = $password;
 $stmt = $conn->prepare($sql);
-$stmt->execute();
+$stmt->execute($namedParameters);
 $record = $stmt->fetch(PDO::FETCH_ASSOC);
         
         echo ($record);

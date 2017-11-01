@@ -135,7 +135,7 @@
                 <strong>Category:</strong>  
                 <select name="category">
                     <option value="">Select a Category</option>
-                    <?php=displayCategoryOptions()?>
+                    <?php displayCategoryOptions()?>
                 </select>
                 
                 <strong>Order by: </strong>
