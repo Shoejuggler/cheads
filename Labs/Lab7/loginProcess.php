@@ -24,10 +24,11 @@ $stmt = $conn->prepare($sql);
 $stmt->execute($namedParameters);
 $record = $stmt->fetch(PDO::FETCH_ASSOC);
         
-        echo ($record);
+        
         
         if (empty($record)) {
-            echo "Wrong credentials!";
+            header('Location: index.php?loginfail=false');
+            exit;
         }else {
     $_SESSION['username'] = $record['username'];
     $_SESSION['adminFullName'] = $record['firstName'] . " " . $record['lastName'];

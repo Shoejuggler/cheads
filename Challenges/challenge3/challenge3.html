@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <input type="number" id="n1" />
+    <input type="number" id="n2" />
+    <button id="compare">Compare</button>
+    <p id="output"></p>
+    <script>
+        compare.onclick = compareNumbers;
+
+
+        function compareNumbers() {
+            if (n1.value > 50 || n2.value > 50 || n1.value < 1 || n2.value < 1) {
+                output.innerHTML = "ERROR";
+            }
+            else {
+                if (n1.value == n2.value) {
+                    output.innerHTML = "The numbers are equal";
+                }
+                else if (n1.value < n2.value) {
+                    output.innerHTML = "The first number is smaller than the second";
+                }
+                else if (n1.value > n2.value) {
+                    output.innerHTML = "The second number is smaller than the first";
+                }
+            }
+            console.log(n1);
+            console.log(n2);
+        }
+    </script>
+</body>
+
+</html>

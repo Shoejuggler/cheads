@@ -20,13 +20,25 @@ if(isset($_GET['updateForm'])) {
     $sql = "UPDATE q_author SET
             firstName = :fName,
             lastName = :lName,
-            gender = :gender
+            gender = :gender,
+            dob = :dob,
+            dod = :dod,
+            profession = :profession,
+            country = :country,
+            picture = :picture,
+            biography =:biography
             WhERE authorId = :authorId
             ";
     $namedParameters = array();
   $namedParameters[':fName'] = $_GET['firstName'];
     $namedParameters[':lName'] = $_GET['lastName'];
     $namedParameters[':gender'] = $_GET['gender'];
+    $namedParameters[':dob'] = $_GET['dob'];
+    $namedParameters[':dod'] = $_GET['dod'];
+    $namedParameters[':profession'] = $_GET['profession'];
+    $namedParameters[':country'] = $_GET['country'];
+    $namedParameters[':picture'] = $_GET['picture']; 
+    $namedParameters[':biography'] = $_GET['biography'];
     $namedParameters[':authorId'] = $_GET['authorId'];
     $stmt = $conn->prepare($sql);
     $stmt->execute($namedParameters);
@@ -50,6 +62,12 @@ if (isset($_GET['authorId'])) {
 <html>
     <head>
         <title> Update Author's Info </title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <style>
+             @import url("css/styles.css");
+             
+         </style>
+   
     </head>
     <body>
 

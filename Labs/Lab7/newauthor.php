@@ -1,19 +1,22 @@
 <?php
 
-if(isset($_GET['addform'])){
-     include 'dbConnection.php';
-   $conn = getDatabaseConnection();
-    //
-    $sql =  "INSERT INTO q_author
-    (firstName, lastName, gender, dob, dod, profession, country, picture, biography) 
-    VALUES
-    (:fName, :lName, :gender, :dob, :dob, :profession, :country, :picture, :biography)";
-    $np = array ();
-    $np[":fName"]  = $_GET['firstName'];
+ 
+ if (isset($_GET['addForm'])) { //checks if form was submitted
+     
+     include '../../dbConnection.php';
+     $conn = getDatabaseConnection();
+     
+     //echo "Form was submitted!";
+     $sql = "INSERT INTO q_author
+            (firstName, lastName, gender, dob, dod, profession, country, picture, biography)
+            VALUES 
+            (:fName, :lName, :gender, :dob, :dod, :profession, :country, :picture, :biography)";
+     $np = array();
+     $np[":fName"]  = $_GET['firstName'];
      $np[":lName"]  = $_GET['lastName'];
      $np[":gender"]  = $_GET['gender'];
      $np[":dob"]  = $_GET['dob'];
-     $np[":dob"]  = $_GET['dob'];
+     $np[":dod"]  = $_GET['dod'];
      $np[":profession"]  = $_GET['profession'];
      $np[":country"]  = $_GET['country'];
      $np[":picture"]  = $_GET['picture'];
@@ -21,21 +24,23 @@ if(isset($_GET['addform'])){
      
      $stmt = $conn->prepare($sql);
      $stmt->execute($np);
-        
-        echo "Form Submitted!";
-}
-
+     
+     echo "Author added!";
+     
+ }
 
 
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html>
     <head>
         <title> Adding New Author</title>
+          <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <style>
+             @import url("css/styles.css");
+             
+         </style>
     </head>
     <body>
 
@@ -54,7 +59,7 @@ if(isset($_GET['addform'])){
                          <input type="radio" name="gender" value="M"
                             id="genderM"/><label for="genderF"></label>Male <br />   
                 Birth Date: <input type="date" name="dob"/><br /> 
-                Death Date: <input type="date" name="dob"/><br /> 
+                Death Date: <input type="date" name="dod"/><br /> 
                 Profession: <input type="text" name="profession"/><br /> 
                 Country: <select name="country">
                             <option>USA</option>

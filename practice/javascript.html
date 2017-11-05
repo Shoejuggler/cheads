@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Practice </title>
+         <script>
+        var name; 
+        
+        name = "John";
+        
+        //alert("My name is " + name);
+        
+        console.log(name);
+        //var works outside console
+        function displayName(){
+        name =  document.getElementById("userName").value;
+        name = $("#userName").val();
+        $("h3").html(name);
+               // var l = name.length
+              //  document.getElementById("length").innerHTML = "Your Name Has " + l + "Letters!";
+        }
+    </script>
+    </head>
+    <body>
+    <h1>Java Script & JQuery</h1>
+    <br>
+    Enter Your Name<input type="text" id="userName"/>
+    <br>
+   <form onsubmit="return false">
+         <input type="button" value="Name length" onclick="displayName()" />
+         <button onclick="displayName()"> Display Name! </button>
+    </form>
+    
+    <h3></h3>
+    <h3></h3>
+    <h3></h3>
+    <h3></h3>
+    <h3></h3>
+    <h3></h3>
+    <h3></h3>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>
