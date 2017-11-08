@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170.402 201.672">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #b67824;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="23.437" y1="207.814" x2="146.965" y2="-6.142" gradientUnits="userSpaceOnUse">
+      <stop offset="0.025" stop-color="#fcee21"/>
+      <stop offset="0.445" stop-color="#fcee21"/>
+      <stop offset="0.5" stop-color="#fff"/>
+      <stop offset="0.58" stop-color="#bc931e"/>
+    </linearGradient>
+  </defs>
+  <title>47f69f08-0ad1-456b-aa89-8c875a4dee0f</title>
+  <g id="virtualvendingmachinebackground.png">
+    <rect class="cls-1" x="2" y="2" width="166.402" height="197.672" rx="10" ry="10"/>
+    <rect class="cls-2" x="2" y="2" width="166.402" height="197.672" rx="10" ry="10"/>
+  </g>
+</svg>
