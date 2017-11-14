@@ -4,6 +4,8 @@ var randomNumber = 5 + 6;
         var guesses = document.querySelector('#guesses');
         var lastResult = document.querySelector('#lastResult');
         var lowOrHi = document.querySelector('#lowOrHi');
+        var wins = 0; 
+var lose = 0; 
 
         var guessSubmit = document.querySelector('.guessSubmit');
         var guessField = document.querySelector('.guessField');
@@ -16,6 +18,10 @@ var randomNumber = 5 + 6;
         var resetButton;
 
         function checkGuess() {
+            
+             wins.innerHTML = wins;
+ lose.innerHTML = lose;
+            
             var userGuess = Number(guessField.value);
             if (guessCount === 1) {
                 guesses.innerHTML = 'Previous guesses: ';
@@ -26,13 +32,16 @@ var randomNumber = 5 + 6;
                 if(userGuess>99){
                     lastResult.innerHTML = "Do not enter numbers bigger than 99!";
                     lastResult.style.backgroundColor = 'yellow';
+                    guessCount--;
                 } else if(userGuess === randomNumber) {
                     lastResult.innerHTML = 'Congrats! You got it!';
                     lastResult.style.backgroundColor = 'green';
                     lowOrHi.innerHTML = '';
+                    wins ++;
                     setGameOver();
                 }else if (guessCount === 7) {
                     lastResult.innerHTML = 'Too bad, you lost!';
+                    lose ++;
                     setGameOver();
                 
                 }else{

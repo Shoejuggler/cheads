@@ -29,3 +29,27 @@ font-weight: bold;
 #grade{
     visibility: hidden;
 }
+ #q4Fail{
+                background-color:red;
+                color: white;
+            }
+            
+            #q4Succeed{
+                background-color:orange;
+                color: white;
+            }
+            #q5Fail{
+                background-color:red;
+                color: white;
+            }
+            
+            #q5Succeed{
+                background-color:green;
+                color: white;
+            }
+            
+            
+            #q6Succeed{
+                background-color:green;
+                color: white;
+            }
