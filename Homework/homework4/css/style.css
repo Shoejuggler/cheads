@@ -1,0 +1,30 @@
+#problems{
+      border-radius: 25px;
+    background: linear-gradient(blue, white);
+    width: 750px;
+    
+    margin: auto;
+    position: relative;
+    top: 10%;
+}
+.background{
+	background: green;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+	
+}
+.header{
+    height: 20px;
+    margin:0px auto;
+    text-align: center;
+    text-shadow: 2px 2px black;
+font-size:10px;
+font-weight: bold;
+}
+
+#grade{
+    visibility: hidden;
+}
