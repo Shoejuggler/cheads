@@ -25,8 +25,8 @@ function check() {
     
     if (question1 == "b") {
         correct++;
-        
-        correct1.innerHTML = "<img src='img/right.png' width='50px' height='50px'>" , "Correct! Nice reading comprehension!";
+        document.getElementById("correct1").innerHTML = '<img src="img/right.png" width="50px" height="50px" >'
+        correct1.innerHTML = 'Correct! Nice reading comprehension!';
         correct1.style.backgroundColor = '#41ad49';
     }else {
         
