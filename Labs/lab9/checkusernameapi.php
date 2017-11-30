@@ -1,4 +1,5 @@
 <?php
+function login(){
 
 include '../../dbConnection.php';
 
@@ -14,6 +15,7 @@ $stmt = $conn -> prepare ($sql);
     //print_r($record);
     
     echo json_encode($record);
-
-
+   if empty record
+    echo "User name taken";
+}
 ?>

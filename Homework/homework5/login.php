@@ -13,8 +13,8 @@
 
 <h1> Admin Login</h1>
 <form method="POST" action="loginProcess.php">
-    Username:<input type="text" name="username"/><br/>
-    Password:<input type="password" name="password"/><br/>
+    Username:<input type="text" name="username"/> Use: user1<br/>
+    Password:<input type="password" name="password"/> Use: user1<br/>
     <input type="submit" value="login!" name="loginform"/>
     
 </form>

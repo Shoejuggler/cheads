@@ -113,7 +113,12 @@ complete: function(data,status) { //optional, used for debugging purposes
                 <option value="hi">Hawaii </option>
             </select><br> Select a County: <select id="county">
                 <option ></option>
-            </select><br> Desired Username: <input type="text" id="username"><br> Password: <input type="password"><br> Type Password Again: <input type="password"><br>
+            </select><br> Desired Username: <input type="text" id="username"> 
+            <?php
+            login()
+            ?>
+            <br> Password: <input type="password"><br> 
+            Type Password Again: <input type="password"><br>
             <input type="submit" value="Sign up!">
         </fieldset>
     </form>

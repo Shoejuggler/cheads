@@ -33,7 +33,7 @@ $record = $stmt->fetch(PDO::FETCH_ASSOC);
     $_SESSION['username'] = $record['username'];
     $_SESSION['adminFullName'] = $record['firstName'] . " " . $record['lastName'];
     //echo $_SESSION['adminFullName'];
-      header('Location: admin.php'); 
+      header('Location: index.php'); 
       }
          
 ?>

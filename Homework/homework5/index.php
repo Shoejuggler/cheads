@@ -7,6 +7,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/function.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <style>
              @import url("css/styles.css");
              
@@ -94,6 +95,47 @@
         <br>
         <br>
         </div>
+        
+        <script>
+            
+             $(document).on('click','#button',function(e) {
+  var data = $("#quiz").serialize();
+  $.ajax({
+         data: data,
+         type: "GET",
+         url: "tally.php",
+         success: function(data){
+              alert("Data Save: " + data);
+         }
+});
+ });
+            
+        </script>
+        <br /><br />
+
+        <?php
+        
+        
+session_start();
+//always put session start to store user data.
+include '../../dbConnection.php';
+
+$conn = getDatabaseConnection();
+$sql= "SELECT userID,date,total 
+FROM q_quiz
+WHERE timestamp = (SELECT MAX(timestamp)";
+$stmt = $conn -> prepare ($sql);
+    $stmt -> execute();
+    foreach ($results as $record) {
+	echo $record['userID']  . " got " . $record['total'] .  " points on " . $record['date'] ."<br /><br />";
+   
+    }
+    ?>
+        
+        
+        
+        
+        
     </div>
 </body>
 
