@@ -45,11 +45,12 @@ function displayImages(){
                 
             }
         </script>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         
         <h1>Photo Gallery</h1>
-        
+        <div id="nav">
         <form method="POST" enctype="multipart/form-data">
             Upload file:
             
@@ -60,5 +61,6 @@ function displayImages(){
         </form>
         <br>
         <?=displayImages()?>
+        </div>
     </body>
 </html>
