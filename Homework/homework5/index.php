@@ -101,6 +101,7 @@
              $(document).on('click','#button',function(e) {
   var data = $("#quiz").serialize();
   $.ajax({
+        dataType: "json",
          data: data,
          type: "GET",
          url: "tally.php",

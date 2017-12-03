@@ -7,7 +7,10 @@ $conn = getDatabaseConnection();
 $sql = "INSERT INTO `q_quiz` (`userID`, `total`) 
 VALUES ('".$_SESSION['username']."', '$score')";
 $stmt = $conn -> prepare ($sql);
-    $stmt -> execute();
-    
+$stmt -> execute();
+$sql= "SELECT avg(total) as average,
+COUNT mainID
+FROM q_quiz
+WHERE userID = ".$_SESSION['userID']."";   
     
 ?>
