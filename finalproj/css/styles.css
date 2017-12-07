@@ -1,0 +1,60 @@
+tr:nth-child(odd){
+  background-color: #dcdcdc;
+  color: black;
+  text-align: center;
+}
+tr:nth-child(even) {
+    background: #b8b8b8;
+    text-align: center;
+}
+
+#library, #logIn{
+    font-family: 'Risque', cursive;
+    font-size: 40px;
+}
+
+body {
+    background-image: url("../img/Comics.jpg");
+}
+
+th{
+    color: black;
+    width: 150px;
+    text-align: center;
+}
+
+#libraryForm{
+     font-family: 'Risque', cursive;
+    text-align: center;
+    
+}
+
+#comics{
+    margin: auto;
+}
+
+#logInContent{
+    text-align: center;
+}
+
+#logout, #addBook{
+    text-align: center;
+    padding: 10px;
+}
+#login{
+   text-align: center;
+    background:#d3ab69;
+    width: 750px;
+    height: 250px; 
+    border-radius: 25px;
+     margin: auto;
+    position: relative;
+    top: 10%; 
+}
+.container{
+    background:#d3ab69;
+   
+    border-radius: 25px;
+    
+    top: 10%;
+}
