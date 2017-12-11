@@ -39,26 +39,7 @@ if (!isset($_SESSION['username'])) { //if not set, it means that admin hasn't lo
 
 
 
-function displayWriter() {
-            global $dbConn;
-            $sql = "SELECT autName, authorID  
-                    FROM `f_author` 
-                    ORDER BY autName";
-                    
-            $stmt = $dbConn -> prepare($sql);
-            $stmt -> execute();
-            $records = $stmt -> fetchAll(PDO::FETCH_ASSOC);
-            
-                foreach($records as $record) {
-                    // echo "<option vak>".$record['autName']."</option>";
-                    echo "<option value='".$record['authorID']."'";
-                    
-                    if ($record['autName'] == $_GET['autName']) {
-                        echo "selected";
-                    } 
-                    echo ">" . $record['autName'] . "</option>";
-                }
-        }
+
 
 
 ?>
@@ -98,13 +79,7 @@ function displayWriter() {
                 </select>
             </div>
             
-            <div class="select-style">
-                <strong>Select an Author:</strong>  
-                <select name="writer" id="writer" onchange="getComic()">
-                    <option disabled selected value>--Select Author--</option>
-                    <?=displayWriter()?>
-                </select>
-            </div><br><br>
+            <br><br>
             
             <table id="comics">
                 <thead ><tr>
