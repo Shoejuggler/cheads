@@ -35,6 +35,32 @@ if (!isset($_SESSION['username'])) { //if not set, it means that admin hasn't lo
                 }
         }
 
+
+
+
+
+function displayWriter() {
+            global $dbConn;
+            $sql = "SELECT autName, authorID  
+                    FROM `f_author` 
+                    ORDER BY autName";
+                    
+            $stmt = $dbConn -> prepare($sql);
+            $stmt -> execute();
+            $records = $stmt -> fetchAll(PDO::FETCH_ASSOC);
+            
+                foreach($records as $record) {
+                    // echo "<option vak>".$record['autName']."</option>";
+                    echo "<option value='".$record['authorID']."'";
+                    
+                    if ($record['autName'] == $_GET['autName']) {
+                        echo "selected";
+                    } 
+                    echo ">" . $record['autName'] . "</option>";
+                }
+        }
+
+
 ?>
 
 <!DOCTYPE html>
@@ -69,6 +95,14 @@ if (!isset($_SESSION['username'])) { //if not set, it means that admin hasn't lo
                 <select name="genre" id="genre" onchange="getComic()">
                     <option disabled selected value>--Select Genre--</option>
                     <?=displayGenres()?>
+                </select>
+            </div>
+            
+            <div class="select-style">
+                <strong>Select an Author:</strong>  
+                <select name="writer" id="writer" onchange="getComic()">
+                    <option disabled selected value>--Select Author--</option>
+                    <?=displayWriter()?>
                 </select>
             </div><br><br>
             
@@ -124,7 +158,7 @@ if (!isset($_SESSION['username'])) { //if not set, it means that admin hasn't lo
                         for(var i=0; i<data.length;i++) {
                             // console.log(data[i].bookName);
                             $('#comics').find('tbody').append('<tr><td>'+data[i].comicName+
-                            '</td><td>'+data[i].autName+'</td><td>'+data[i].artName+' </td><td><img src='+data[i].cover+' height="120" width="100"></td><td>'
+                            '</td><td>'+data[i].autName+'</td><td>'+data[i].artName+' </td><td><img src='+data[i].cover+' height="220" width="200"></td><td>'
                             +data[i].publisher+' </td><td>'+data[i].releaseDate+'</td><td><a href="editcomic.php?id='
                             +data[i].comicID+'">Edit comic</a></td><td><a href="deletecomic.php?id='+data[i].comicID+'" >Delete comic</a></td></tr>');
                         }
