@@ -1,0 +1,783 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="Musicvend.com" resolutions="1x" timestamp="1513025914885">
+  <folder name="assets">
+    <file name="16-black-coffee.mp3" crc="46838364" seo="true" mt="1377531316000"/>
+    <file name="19-brown-eyes.mp3" crc="345250511" seo="true" mt="1377531320000"/>
+    <file name="01-white-wedding.mp3" crc="3835654369" seo="true" mt="1377532720000"/>
+    <file name="02-pink-cadillac.mp3" crc="446326318" seo="true" mt="1377531302000"/>
+    <file name="03-magenta-rose.mp3" crc="3981441693" seo="true" mt="1377531304000"/>
+    <file name="04-99-red-balloons.mp3" crc="4279758640" seo="true" mt="1191601456000"/>
+    <file name="05-after-the-gold-rush.mp3" crc="4077752177" seo="true" mt="1377531306000"/>
+    <file name="06-orange-crush.mp3" crc="393672522" seo="true" mt="1191601790000"/>
+    <file name="07-mellow-yellow.mp3" crc="4076662740" seo="true" mt="1191452134000"/>
+    <file name="08-(you-dyed-your-hair)-chartreuse.mp3" crc="3819746915" seo="true" mt="1377531306000"/>
+    <file name="09-lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs).mp3" crc="3987159735" seo="true" mt="1377531306000"/>
+    <file name="10-john-deere-green.mp3" crc="4180119573" seo="true" mt="1377531308000"/>
+    <file name="11-blue-moon.mp3" crc="30100496" seo="true" mt="1377531310000"/>
+    <file name="12-the-indigo-swing.mp3" crc="303780124" seo="true" mt="1377531312000"/>
+    <file name="13-kiko-and-the-lavender-moon.mp3" crc="85632037" seo="true" mt="1377531314000"/>
+    <file name="15-purple-people-eater.mp3" crc="394864843" seo="true" mt="1191599534000"/>
+    <file name="14-violet.mp3" crc="4145308261" seo="true" mt="1377531314000"/>
+    <file name="17-.mp3" crc="3873342611" seo="true" mt="1191606118000"/>
+    <file name="18-silver-lining-(radio-edit).mp3" crc="4065179765" seo="true" mt="1377531318000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-master.css" crc="4070676129" ref="violet---savage-garden:kiko-and-the-lavender-moon---los-lobos:john-deere-green---joe-diffie:the-indigo-swing---indigo-swing:silver-lining---amanda-ghost:magenta-rose---summer-lee:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:99-red-balloons---nena:(you-dyed-your-hair)-chartreuse---chris-daniels:black-coffee---ella-fitzgerald:blue-moon---chris-issak:after-the-gold-rush---harris,-parton,---ronstadt:mellow-yellow---donovan:brown-eyes---fleetwood-mac:orange-crush---r.e.m:white-wedding---billy-idol:purple-people-eater:shades-of-gray---the-monkees:pink-cadillac---southeren-pacific"/>
+    <file name="violet---savage-garden.css" crc="3980398641" ref="violet---savage-garden"/>
+    <file name="kiko-and-the-lavender-moon---los-lobos.css" crc="438633514" ref="kiko-and-the-lavender-moon---los-lobos"/>
+    <file name="john-deere-green---joe-diffie.css" crc="3861035930" ref="john-deere-green---joe-diffie"/>
+    <file name="the-indigo-swing---indigo-swing.css" crc="4110213195" ref="the-indigo-swing---indigo-swing"/>
+    <file name="silver-lining---amanda-ghost.css" crc="3808921541" ref="silver-lining---amanda-ghost"/>
+    <file name="magenta-rose---summer-lee.css" crc="221332520" ref="magenta-rose---summer-lee"/>
+    <file name="lime-green-fitted-blouse-_with-rounded-collar---puce-cuffs_---death-by-chocolate.css" crc="4246922347" ref="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate"/>
+    <file name="index.css" crc="3836930632" ref="index"/>
+    <file name="99-red-balloons---nena.css" crc="499444072" ref="99-red-balloons---nena"/>
+    <file name="_you-dyed-your-hair_-chartreuse---chris-daniels.css" crc="3882953906" ref="(you-dyed-your-hair)-chartreuse---chris-daniels"/>
+    <file name="black-coffee---ella-fitzgerald.css" crc="408287894" ref="black-coffee---ella-fitzgerald"/>
+    <file name="blue-moon---chris-issak.css" crc="4283860883" ref="blue-moon---chris-issak"/>
+    <file name="after-the-gold-rush---harris_-parton_---ronstadt.css" crc="173301175" ref="after-the-gold-rush---harris,-parton,---ronstadt"/>
+    <file name="mellow-yellow---donovan.css" crc="81188635" ref="mellow-yellow---donovan"/>
+    <file name="brown-eyes---fleetwood-mac.css" crc="40880477" ref="brown-eyes---fleetwood-mac"/>
+    <file name="orange-crush---r_e_m.css" crc="4220179864" ref="orange-crush---r.e.m"/>
+    <file name="white-wedding---billy-idol.css" crc="4223804288" ref="white-wedding---billy-idol"/>
+    <file name="purple-people-eater.css" crc="3806809643" ref="purple-people-eater"/>
+    <file name="shades-of-gray---the-monkees.css" crc="461628074" ref="shades-of-gray---the-monkees"/>
+    <file name="pink-cadillac---southeren-pacific.css" crc="376420737" ref="pink-cadillac---southeren-pacific"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost"/>
+    <file name="museutils.js" crc="3803043152" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost"/>
+    <file name="whatinput.js" crc="86476730" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost"/>
+    <file name="require.js" crc="4157109226" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost"/>
+    <file name="webpro.js" crc="242022427" ref="shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost"/>
+    <file name="musewpdisclosure.js" crc="119288625" ref="shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost"/>
+  </folder>
+  <folder name="images">
+    <file name="artwork-21.svg" crc="4206607253" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 21_poster_.png" crc="273333376" ref="index"/>
+    <file name="artwork-20.svg" crc="157562119" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 20_poster_.png" crc="36831308" ref="index"/>
+    <file name="artwork-23.svg" crc="386460921" seo="true" ref="silver-lining---amanda-ghost">
+      <caption webpage="index" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+    </file>
+    <file name="artwork 23_poster_.png" crc="257826671" ref="silver-lining---amanda-ghost"/>
+    <file name="artwork-24.svg" crc="3902746079" seo="true" ref="shades-of-gray---the-monkees">
+      <caption webpage="index" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+    </file>
+    <file name="artwork 24_poster_.png" crc="3789343668" ref="shades-of-gray---the-monkees"/>
+    <file name="artwork-19.svg" crc="332699834" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 19_poster_.png" crc="3873175991" ref="index"/>
+    <file name="artwork-4.svg" crc="17013899" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 4_poster_.png" crc="300300307" ref="index"/>
+    <file name="artwork-7.svg" crc="3892382824" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 7_poster_.png" crc="346973341" ref="index"/>
+    <file name="artwork-10.svg" crc="4281182339" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 10_poster_.png" crc="4078457786" ref="index"/>
+    <file name="artwork-16.svg" crc="108274073" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 16_poster_.png" crc="4207187186" ref="index"/>
+    <file name="artwork-5.svg" crc="251775026" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 5_poster_.png" crc="379002585" ref="index"/>
+    <file name="artwork-8.svg" crc="4023879615" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 8_poster_.png" crc="3953524781" ref="index"/>
+    <file name="artwork-11.svg" crc="138598124" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 11_poster_.png" crc="4061167846" ref="index"/>
+    <file name="artwork-14.svg" crc="4261200064" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 14_poster_.png" crc="4275761202" ref="index"/>
+    <file name="artwork-17.svg" crc="174325604" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 17_poster_.png" crc="4276581751" ref="index"/>
+    <file name="artwork-3.svg" crc="19474498" seo="true" ref="shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 3_poster_.png" crc="308805828" ref="shades-of-gray---the-monkees"/>
+    <file name="artwork-6.svg" crc="4001648336" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 6_poster_.png" crc="4673232" ref="index"/>
+    <file name="artwork-9.svg" crc="158263522" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 9_poster_.png" crc="4245331902" ref="index"/>
+    <file name="artwork-12.svg" crc="4253384188" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 12_poster_.png" crc="3929919723" ref="index"/>
+    <file name="artwork-15.svg" crc="180142137" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 15_poster_.png" crc="3942529231" ref="index"/>
+    <file name="artwork-18.svg" crc="385567944" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 18_poster_.png" crc="75299751" ref="index"/>
+    <file name="artwork-43.svg" crc="394879844" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="artwork 43_poster_.png" crc="3841801309" ref="index"/>
+    <file name="artwork-42.svg" crc="3759543641" seo="true" ref="index:shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 42_poster_.png" crc="470921082" ref="index"/>
+    <file name="artwork-41.svg" crc="18742802" seo="true" ref="brown-eyes---fleetwood-mac">
+      <caption webpage="index" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+    </file>
+    <file name="artwork 41_poster_.png" crc="4111744230" ref="brown-eyes---fleetwood-mac"/>
+    <file name="artwork-40.svg" crc="161051427" seo="true" ref="black-coffee---ella-fitzgerald">
+      <caption webpage="index" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+    </file>
+    <file name="artwork 40_poster_.png" crc="4129023964" ref="black-coffee---ella-fitzgerald"/>
+    <file name="artwork-39.svg" crc="529438104" seo="true" ref="shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 39_poster_.png" crc="35091215" ref="shades-of-gray---the-monkees"/>
+    <file name="artwork-38.svg" crc="348226882" seo="true" ref="pink-cadillac---southeren-pacific">
+      <caption webpage="index" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+    </file>
+    <file name="artwork 38_poster_.png" crc="381652110" ref="pink-cadillac---southeren-pacific"/>
+    <file name="artwork-37.svg" crc="3899376154" seo="true" ref="magenta-rose---summer-lee">
+      <caption webpage="index" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+    </file>
+    <file name="artwork 37_poster_.png" crc="4235625703" ref="magenta-rose---summer-lee"/>
+    <file name="artwork-36.svg" crc="63014624" seo="true" ref="99-red-balloons---nena">
+      <caption webpage="index" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+    </file>
+    <file name="artwork 36_poster_.png" crc="282188169" ref="99-red-balloons---nena"/>
+    <file name="artwork-34.svg" crc="34587465" seo="true" ref="orange-crush---r.e.m">
+      <caption webpage="index" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+    </file>
+    <file name="artwork 34_poster_.png" crc="4147041667" ref="orange-crush---r.e.m"/>
+    <file name="artwork-35.svg" crc="3775938627" seo="true" ref="after-the-gold-rush---harris,-parton,---ronstadt">
+      <caption webpage="index" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 35_poster_.png" crc="232666001" ref="after-the-gold-rush---harris,-parton,---ronstadt"/>
+    <file name="artwork-33.svg" crc="71776988" seo="true" ref="mellow-yellow---donovan">
+      <caption webpage="index" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+    </file>
+    <file name="artwork 33_poster_.png" crc="4093132549" ref="mellow-yellow---donovan"/>
+    <file name="artwork-32.svg" crc="4158662611" seo="true" ref="(you-dyed-your-hair)-chartreuse---chris-daniels">
+      <caption webpage="index" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+    </file>
+    <file name="artwork 32_poster_.png" crc="3986426842" ref="(you-dyed-your-hair)-chartreuse---chris-daniels"/>
+    <file name="artwork-31.svg" crc="3769053472" seo="true" ref="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate">
+      <caption webpage="index" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+    </file>
+    <file name="artwork 31_poster_.png" crc="342875011" ref="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate"/>
+    <file name="artwork-30.svg" crc="3819796981" seo="true" ref="john-deere-green---joe-diffie">
+      <caption webpage="index" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+    </file>
+    <file name="artwork 30_poster_.png" crc="410254001" ref="john-deere-green---joe-diffie"/>
+    <file name="artwork-29.svg" crc="122351117" seo="true" ref="blue-moon---chris-issak">
+      <caption webpage="index" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+    </file>
+    <file name="artwork 29_poster_.png" crc="3888917652" ref="blue-moon---chris-issak"/>
+    <file name="artwork-28.svg" crc="217765952" seo="true" ref="the-indigo-swing---indigo-swing">
+      <caption webpage="index" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+    </file>
+    <file name="artwork 28_poster_.png" crc="114524061" ref="the-indigo-swing---indigo-swing"/>
+    <file name="artwork-26.svg" crc="285270434" seo="true" ref="purple-people-eater">
+      <caption webpage="index" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+    </file>
+    <file name="artwork 26_poster_.png" crc="4096020075" ref="purple-people-eater"/>
+    <file name="artwork-46.svg" crc="205628007" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="artwork 46_poster_.png" crc="462263488" ref="index"/>
+    <file name="artwork-27.svg" crc="4130760333" seo="true" ref="violet---savage-garden">
+      <caption webpage="index" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+    </file>
+    <file name="artwork 27_poster_.png" crc="126712272" ref="violet---savage-garden"/>
+    <file name="artwork-25.svg" crc="208639977" seo="true" ref="kiko-and-the-lavender-moon---los-lobos">
+      <caption webpage="index" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+    </file>
+    <file name="artwork 25_poster_.png" crc="54989091" ref="kiko-and-the-lavender-moon---los-lobos"/>
+    <file name="backgroundpng.svg" crc="15919413" seo="true" ref="shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="backgroundpng_poster_.png" crc="95322147" ref="shades-of-gray---the-monkees"/>
+    <file name="artwork-44.svg" crc="441569434" seo="true" ref="index">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="u1946-10.png" crc="308657901" ref="shades-of-gray---the-monkees"/>
+    <file name="artwork-22.svg" crc="4026744927" seo="true" ref="shades-of-gray---the-monkees:kiko-and-the-lavender-moon---los-lobos:purple-people-eater:violet---savage-garden:the-indigo-swing---indigo-swing:blue-moon---chris-issak:john-deere-green---joe-diffie:lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate:(you-dyed-your-hair)-chartreuse---chris-daniels:mellow-yellow---donovan:orange-crush---r.e.m:after-the-gold-rush---harris,-parton,---ronstadt:99-red-balloons---nena:magenta-rose---summer-lee:pink-cadillac---southeren-pacific:white-wedding---billy-idol:brown-eyes---fleetwood-mac:black-coffee---ella-fitzgerald:silver-lining---amanda-ghost:index">
+      <caption webpage="white-wedding---billy-idol" alt=""/>
+      <caption webpage="shades-of-gray---the-monkees" alt=""/>
+      <caption webpage="purple-people-eater" alt=""/>
+      <caption webpage="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate" alt=""/>
+      <caption webpage="orange-crush---r.e.m" alt=""/>
+      <caption webpage="pink-cadillac---southeren-pacific" alt=""/>
+      <caption webpage="john-deere-green---joe-diffie" alt=""/>
+      <caption webpage="magenta-rose---summer-lee" alt=""/>
+      <caption webpage="99-red-balloons---nena" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="(you-dyed-your-hair)-chartreuse---chris-daniels" alt=""/>
+      <caption webpage="kiko-and-the-lavender-moon---los-lobos" alt=""/>
+      <caption webpage="black-coffee---ella-fitzgerald" alt=""/>
+      <caption webpage="the-indigo-swing---indigo-swing" alt=""/>
+      <caption webpage="mellow-yellow---donovan" alt=""/>
+      <caption webpage="violet---savage-garden" alt=""/>
+      <caption webpage="silver-lining---amanda-ghost" alt=""/>
+      <caption webpage="blue-moon---chris-issak" alt=""/>
+      <caption webpage="brown-eyes---fleetwood-mac" alt=""/>
+      <caption webpage="after-the-gold-rush---harris,-parton,---ronstadt" alt=""/>
+    </file>
+    <file name="artwork 22_poster_.png" crc="119563416" ref="index"/>
+    <file name="u1943-10.png" crc="4190943850" ref="kiko-and-the-lavender-moon---los-lobos"/>
+    <file name="u1940-6.png" crc="4145355128" ref="purple-people-eater"/>
+    <file name="u1937-10.png" crc="363020522" ref="violet---savage-garden"/>
+    <file name="u1934-10.png" crc="3989317542" ref="the-indigo-swing---indigo-swing"/>
+    <file name="u1931-10.png" crc="3859780272" ref="blue-moon---chris-issak"/>
+    <file name="u1928-10.png" crc="429900251" ref="john-deere-green---joe-diffie"/>
+    <file name="u1922-10.png" crc="3812647794" ref="(you-dyed-your-hair)-chartreuse---chris-daniels"/>
+    <file name="u1919-10.png" crc="3822678587" ref="mellow-yellow---donovan"/>
+    <file name="u1916-10.png" crc="196869779" ref="orange-crush---r.e.m"/>
+    <file name="u1913-10.png" crc="77570270" ref="after-the-gold-rush---harris,-parton,---ronstadt"/>
+    <file name="u1910-10.png" crc="19190100" ref="99-red-balloons---nena"/>
+    <file name="u1907-10.png" crc="4264992134" ref="magenta-rose---summer-lee"/>
+    <file name="u1901-10.png" crc="287156181" ref="pink-cadillac---southeren-pacific"/>
+    <file name="u1898-10.png" crc="4114214883" ref="white-wedding---billy-idol"/>
+    <file name="u1895-10.png" crc="369630202" ref="brown-eyes---fleetwood-mac"/>
+    <file name="u1892-10.png" crc="4232516676" ref="black-coffee---ella-fitzgerald"/>
+    <file name="u1949-10.png" crc="4090795526" ref="silver-lining---amanda-ghost"/>
+    <file name="u552-9.png" crc="16490936" ref="index"/>
+    <file name="artwork 44_poster_.png" crc="4170971897" ref="index"/>
+    <file name="artwork-47.svg" crc="74669355" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="artwork 47_poster_.png" crc="3959045336" ref="index"/>
+    <file name="u1925-11.png" crc="4020551769" ref="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate"/>
+    <file name="u3938-73.png" crc="3816268589" ref="shades-of-gray---the-monkees"/>
+    <file name="u3931-7.png" crc="320243069" ref="shades-of-gray---the-monkees"/>
+    <file name="u3838-5.png" crc="467739123" ref="purple-people-eater"/>
+    <file name="u3801-143.png" crc="459831644" ref="violet---savage-garden"/>
+    <file name="u3794-7.png" crc="3906941026" ref="violet---savage-garden"/>
+    <file name="u3757-66.png" crc="140028624" ref="the-indigo-swing---indigo-swing"/>
+    <file name="u3750-5.png" crc="361783776" ref="the-indigo-swing---indigo-swing"/>
+    <file name="u3711-4.png" crc="179796265" ref="blue-moon---chris-issak"/>
+    <file name="u3651-59.png" crc="180370377" ref="john-deere-green---joe-diffie"/>
+    <file name="u3659-4.png" crc="4052774759" ref="john-deere-green---joe-diffie"/>
+    <file name="u3612-59.png" crc="180370377" ref="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate"/>
+    <file name="u3620-4.png" crc="4053614149" ref="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate"/>
+    <file name="u3573-109.png" crc="3773157148" ref="(you-dyed-your-hair)-chartreuse---chris-daniels"/>
+    <file name="u3581-5.png" crc="442855466" ref="(you-dyed-your-hair)-chartreuse---chris-daniels"/>
+    <file name="u3534-92.png" crc="354191106" ref="mellow-yellow---donovan"/>
+    <file name="u3542-6.png" crc="3827652349" ref="mellow-yellow---donovan"/>
+    <file name="u3465-49.png" crc="4098247512" ref="orange-crush---r.e.m"/>
+    <file name="u3473-4.png" crc="111047256" ref="orange-crush---r.e.m"/>
+    <file name="u3426-79.png" crc="4104055030" ref="after-the-gold-rush---harris,-parton,---ronstadt"/>
+    <file name="u3434-9.png" crc="44964343" ref="after-the-gold-rush---harris,-parton,---ronstadt"/>
+    <file name="u3387-83.png" crc="4247441524" ref="99-red-balloons---nena"/>
+    <file name="u3395-7.png" crc="281501710" ref="99-red-balloons---nena"/>
+    <file name="u3347-94.png" crc="4007657233" ref="magenta-rose---summer-lee"/>
+    <file name="u3355-7.png" crc="4225264335" ref="magenta-rose---summer-lee"/>
+    <file name="u3290-109.png" crc="220404655" ref="pink-cadillac---southeren-pacific"/>
+    <file name="u3298-4.png" crc="3935775843" ref="pink-cadillac---southeren-pacific"/>
+    <file name="u3236-84.png" crc="3770269977" ref="white-wedding---billy-idol"/>
+    <file name="u3244-11.png" crc="4234576066" ref="white-wedding---billy-idol"/>
+    <file name="u3152-20.png" crc="4162276878" ref="brown-eyes---fleetwood-mac"/>
+    <file name="u3160-11.png" crc="3869451121" ref="brown-eyes---fleetwood-mac"/>
+    <file name="u3038-73.png" crc="4226455107" ref="black-coffee---ella-fitzgerald"/>
+    <file name="u3034-14.png" crc="4226201322" ref="black-coffee---ella-fitzgerald"/>
+    <file name="u3982-40.png" crc="3973275302" ref="silver-lining---amanda-ghost"/>
+    <file name="u3975-5.png" crc="262592837" ref="silver-lining---amanda-ghost"/>
+  </folder>
+  <file name="index.html" crc="463979108" seo="true" mt="1513025772991" redirect="true"/>
+  <file name="shades-of-gray---the-monkees.html" crc="4145973763" seo="true" mt="1512988816983" redirect="true"/>
+  <file name="kiko-and-the-lavender-moon---los-lobos.html" crc="4192201697" seo="true" mt="1512988816983" redirect="true"/>
+  <file name="purple-people-eater.html" crc="109601006" seo="true" mt="1512988816983" redirect="true"/>
+  <file name="violet---savage-garden.html" crc="4166278451" seo="true" mt="1512988816983" redirect="true"/>
+  <file name="the-indigo-swing---indigo-swing.html" crc="159202918" seo="true" mt="1512988816983" redirect="true"/>
+  <file name="blue-moon---chris-issak.html" crc="47944623" seo="true" mt="1512989484009" redirect="true"/>
+  <file name="john-deere-green---joe-diffie.html" crc="472205835" seo="true" mt="1512989469282" redirect="true"/>
+  <file name="lime-green-fitted-blouse-(with-rounded-collar---puce-cuffs)---death-by-chocolate.html" crc="3989470582" seo="true" mt="1512989408386" redirect="true"/>
+  <file name="(you-dyed-your-hair)-chartreuse---chris-daniels.html" crc="119499059" seo="true" mt="1512989356905" redirect="true"/>
+  <file name="mellow-yellow---donovan.html" crc="341566067" seo="true" mt="1512989272038" redirect="true"/>
+  <file name="orange-crush---r.e.m.html" crc="3835309034" seo="true" mt="1512989206879" redirect="true"/>
+  <file name="after-the-gold-rush---harris,-parton,---ronstadt.html" crc="60185656" seo="true" mt="1512989152180" redirect="true"/>
+  <file name="99-red-balloons---nena.html" crc="443667791" seo="true" mt="1512989111033" redirect="true"/>
+  <file name="magenta-rose---summer-lee.html" crc="175345782" seo="true" mt="1512989053980" redirect="true"/>
+  <file name="pink-cadillac---southeren-pacific.html" crc="333420891" seo="true" mt="1512989021752" redirect="true"/>
+  <file name="white-wedding---billy-idol.html" crc="4097838295" seo="true" mt="1512988964004" redirect="true"/>
+  <file name="brown-eyes---fleetwood-mac.html" crc="4023469466" seo="true" mt="1512988928009" redirect="true"/>
+  <file name="black-coffee---ella-fitzgerald.html" crc="4041182630" seo="true" mt="1512988862667" redirect="true"/>
+  <file name="silver-lining---amanda-ghost.html" crc="3956834932" seo="true" mt="1512988816983" redirect="true"/>
+</manifest>

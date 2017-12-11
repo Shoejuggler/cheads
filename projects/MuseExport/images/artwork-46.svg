@@ -1,0 +1,32 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 363 146">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #4d4d4d;
+        stroke-width: 14px;
+        fill: url(#radial-gradient);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #666;
+        stroke-width: 0.5px;
+        fill: url(#radial-gradient-2);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="193.319" cy="58.886" r="142.707" gradientTransform="translate(-0.356 24.113) scale(0.941 0.83)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.133" stop-color="#b3b3b3"/>
+      <stop offset="0.444" stop-color="#9c9c9c"/>
+      <stop offset="0.879" stop-color="#666"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="189.319" cy="6.055" r="40.387" gradientTransform="translate(-0.356 32.706) scale(0.941 1.308)" xlink:href="#radial-gradient"/>
+  </defs>
+  <title>cc16d4eb-6a1b-4800-bf17-b421c71c82ba</title>
+  <g>
+    <ellipse class="cls-1" cx="181.5" cy="73" rx="174.5" ry="66"/>
+    <rect class="cls-2" x="127.41" y="14.472" width="100.655" height="52.302" rx="12" ry="12"/>
+  </g>
+</svg>
