@@ -32,8 +32,6 @@ if (empty($record)) {
     exit; 
   
 } else {
-    $_SESSION['username'] = $record['username'];
-    $_SESSION['adminid'] = $record['adminid'];
     header('Location: admin.php'); //redirects users to admin page
 }
 
