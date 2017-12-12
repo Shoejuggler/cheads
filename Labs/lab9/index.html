@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <!-- saved from url=(0080)https://ilearn.csumb.edu/pluginfile.php/721164/mod_resource/content/0/index.html -->
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>AJAX: Sign Up Page</title>
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     <script>
-        
         function getCity() {
-            
+
             //alert($("#zip").val());
             $.ajax({
 
                 type: "GET",
                 url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
                 dataType: "json",
-                data: { "zip": $("#zip").val()},
-                success: function(data,status) {
-                
-                   //alert(data.city);
-                   $("#city").html(data.city);
-                 $("#lat").html(data.latitude);
-                 $("#long").html(data.longitude);
+                data: { "zip": $("#zip").val() },
+                success: function(data, status) {
+
+                    //alert(data.city);
+                    $("#city").html(data.city);
+                    $("#lat").html(data.latitude);
+                    $("#long").html(data.longitude);
+
+
+
                 },
-                complete: function(data,status) { 
+                complete: function(data, status) { //optional, used for debugging purposes
+                    //alert(status);
                 }
 
-            });
-            
-        }
+            }); //ajax
+
+        } //getCity()
+
         function getCounties() {
             // alert($("#state").val());
             $.ajax({
@@ -51,79 +58,144 @@
 
             }); //ajax
         }
-        
-        function checkUsername(){
-          $.ajax({
 
-type: "GET",
-url: "checkusernameapi.php",
-dataType: "json",
-data: { "username": $('#username').val() },
-success: function(data,status) {
-//alert(data);
- if (data == false ) {
-                        alert("username available");
-                    } else {
-                        alert("username NOT available!");
+        function checkUsername() {
+            //alert($("#username").val());
+            $.ajax({
+
+                type: "GET",
+                url: "checkUsernameAPI.php",
+                dataType: "json",
+                data: { "username": $("#username").val() },
+                success: function(data, status) {
+                    //alert(data);
+
+                    if (data == false) {
+                        $('#dname').append('username available  ');
+                        $('#dname').css('color', 'green');
                     }
-                     
+                    else {
+                        $('#dname').append('username NOT available!');
+                        $('#dname').css('color', 'red');
+                    }
 
-},
-complete: function(data,status) { //optional, used for debugging purposes
-//alert(status);
-}
 
-});//ajax  
+                },
+                complete: function(data, status) { //optional, used for debugging purposes
+                    //alert(status);
+                }
+
+            }); //ajax
         }
-        
-    $(document).ready( function(){
-        
-        $("#zip").change( function(){ getCity() });
-        $("#state").change(function(){getCountries()});
-        $("#username").change(function() {checkUsername()});
+
+
+
+        function checkZip() {
+            $.ajax({
+
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                dataType: "json",
+                data: { "zip": $("#zip").val() },
+                success: function(data, status) {
+                    //alert(data);
+
+                    if (data == false) {
+                          $('#zipcode').append('Zip code not found');
+                        $('#zipcode').css('color', 'red');
+                       
+                    }
+                    else {
+
+                    }
+
+
+                },
+                complete: function(data, status) { //optional, used for debugging purposes
+                    //alert(status);
+                }
+
+            }); //ajax
+        }
+
+
+
+
+
+
+
+        $(document).ready(function() {
+
+            $("#zip").change(function() { getCity() });
+            $("#state").change(function() { getCounties() });
+            $("#username").change(function() { checkUsername() });
             
-        });//document.ready    
-        
-        
+        }); //document.ready
+
+
+        function checkPassword() {
+            if (signup.pass1.value == "") {
+                 $('#password1').append('Please type password');
+                  $('#password1').css('color', 'red');
+            }
+
+
+            if (signup.pass2.value == "") {
+                 $('#password2').append('Please type password');
+                  $('#password2').css('color', 'red');
+            }
+            if (signup.pass2.value != signup.pass1.value) {
+                
+                $('#password1').append('Passwords do not match. Please retype password');
+                 $('#password2').append('Passwords do not match. Please retype password');
+                $('#password1').css('color', 'red');
+                 $('#password2').css('color', 'red');
+            }
+
+            return true;
+        }
     </script>
-    
-</head>
-
-<body>
-
+    <div id="pic">
+        <img src="icon.png" class="icon">
+        <img src="icon2.png" class="icon">
+        <img src="icon3.png" class="icon">
+    </div>
     <h1> Sign Up Form </h1>
 
-    <form onsubmit="return false">
+    <form id="signup" name="signup" onsubmit="return false">
         <fieldset>
             <legend>Sign Up</legend>
-            First Name: <input type="text"><br> 
-            Last Name: <input type="text"><br> 
-            Email: <input type="text"><br> 
-            Phone Number:<input type="text"><br><br> 
-            Zip Code: <input type="text" onChange="getCity()" id="zip"><br>
-            City: <span id="city"></span>
+            First Name: <input type="text"><br><br> Last Name: <input type="text"><br> <br> Email: <input type="text"><br> <br> Phone Number:<input type="text"><br><br>
+           Zip Code: <input type="text" id="zip">
+            <div id="zipcode"> </div>
+            <br> City: <span id="city"></span>
             <br> Latitude: <span id="lat"></span>
             <br> Longitude: <span id="long"></span>
             <br><br> State:
-            <select id="state" onChange="getCounties()">
+            <select id="state">
                 <option>--- Select One ---</option>
                 <option value="ak">Alaska </option>
                 <option value="az">Arizona </option>
                 <option value="ca">California </option>
                 <option value="hi">Hawaii </option>
-            </select><br> Select a County: <select id="county">
+            </select><br><br> Select a County: <select id="county">
                 <option ></option>
-            </select><br> Desired Username: <input type="text" id="username"> 
-            <?php
-            login()
-            ?>
-            <br> Password: <input type="password"><br> 
-            Type Password Again: <input type="password"><br>
-            <input type="submit" value="Sign up!">
+            </select><br><br> Desired Username: <input type="text" id="username">
+            <div id="dname"></div><br><br> 
+            Password: <input type="password" name="pass1"><br><br> 
+            <div id="password1"></div>
+            Type Password Again: <input type="password" name="pass2"><br><br>
+            <div id="password2"></div>
+
+
+            <input type="submit" value="Sign up!" class="button" onclick="checkPassword();checkZip();"><br>
+            <img src="icon5.png" class="icon5">
         </fieldset>
     </form>
 
+    <img src="icon4.png" class="icon4">
 
 
+    </body>
 
-</body></html>
+</html>

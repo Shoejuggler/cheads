@@ -33,7 +33,7 @@ if (empty($record)) {
   
 } else {
     $_SESSION['username'] = $record['username'];
-    $_SESSION['userId'] = $record['userId'];
+    $_SESSION['adminid'] = $record['adminid'];
     header('Location: admin.php'); //redirects users to admin page
 }
 
