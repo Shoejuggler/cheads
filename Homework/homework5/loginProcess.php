@@ -13,7 +13,7 @@ WHERE username = '$username'
 AND password = '$password'";*/
 
 $sql = "SELECT *
-FROM q_admin
+FROM f_admin
 WHERE username = :username
 AND password = :password";
 
