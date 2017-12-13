@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-   include '../../dbConnection.php';
+   include 'dbConnection.php';
    $conn = getDatabaseConnection();
 $username = $_POST['username'];
 $password = sha1($_POST['password']);
